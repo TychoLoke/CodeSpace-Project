@@ -1,0 +1,447 @@
+{
+  "season": 2025,
+  "currentRound": 20,
+  "currentRace": "Sao Paulo Grand Prix",
+  "lastUpdated": "2025-11-02",
+  "drivers": [
+    {"id": "max-verstappen", "code": "VER", "number": 1, "name": "Max Verstappen", "team": "Oracle Red Bull Racing", "country": "Netherlands"},
+    {"id": "sergio-perez", "code": "PER", "number": 11, "name": "Sergio Pérez", "team": "Oracle Red Bull Racing", "country": "Mexico"},
+    {"id": "charles-leclerc", "code": "LEC", "number": 16, "name": "Charles Leclerc", "team": "Scuderia Ferrari", "country": "Monaco"},
+    {"id": "carlos-sainz", "code": "SAI", "number": 55, "name": "Carlos Sainz", "team": "Scuderia Ferrari", "country": "Spain"},
+    {"id": "lewis-hamilton", "code": "HAM", "number": 44, "name": "Lewis Hamilton", "team": "Mercedes-AMG Petronas", "country": "United Kingdom"},
+    {"id": "george-russell", "code": "RUS", "number": 63, "name": "George Russell", "team": "Mercedes-AMG Petronas", "country": "United Kingdom"},
+    {"id": "lando-norris", "code": "NOR", "number": 4, "name": "Lando Norris", "team": "McLaren Formula 1 Team", "country": "United Kingdom"},
+    {"id": "oscar-piastri", "code": "PIA", "number": 81, "name": "Oscar Piastri", "team": "McLaren Formula 1 Team", "country": "Australia"},
+    {"id": "fernando-alonso", "code": "ALO", "number": 14, "name": "Fernando Alonso", "team": "Aston Martin Aramco", "country": "Spain"},
+    {"id": "lance-stroll", "code": "STR", "number": 18, "name": "Lance Stroll", "team": "Aston Martin Aramco", "country": "Canada"},
+    {"id": "pierre-gasly", "code": "GAS", "number": 10, "name": "Pierre Gasly", "team": "BWT Alpine F1 Team", "country": "France"},
+    {"id": "esteban-ocon", "code": "OCO", "number": 31, "name": "Esteban Ocon", "team": "BWT Alpine F1 Team", "country": "France"},
+    {"id": "yuki-tsunoda", "code": "TSU", "number": 22, "name": "Yuki Tsunoda", "team": "Visa Cash App RB", "country": "Japan"},
+    {"id": "daniel-ricciardo", "code": "RIC", "number": 3, "name": "Daniel Ricciardo", "team": "Visa Cash App RB", "country": "Australia"},
+    {"id": "valtteri-bottas", "code": "BOT", "number": 77, "name": "Valtteri Bottas", "team": "Stake F1 Team Kick Sauber", "country": "Finland"},
+    {"id": "zhou-guanyu", "code": "ZHO", "number": 24, "name": "Zhou Guanyu", "team": "Stake F1 Team Kick Sauber", "country": "China"},
+    {"id": "nico-hulkenberg", "code": "HUL", "number": 27, "name": "Nico Hülkenberg", "team": "MoneyGram Haas F1 Team", "country": "Germany"},
+    {"id": "kevin-magnussen", "code": "MAG", "number": 20, "name": "Kevin Magnussen", "team": "MoneyGram Haas F1 Team", "country": "Denmark"},
+    {"id": "logan-sargeant", "code": "SAR", "number": 2, "name": "Logan Sargeant", "team": "Williams Racing", "country": "United States"},
+    {"id": "alexander-albon", "code": "ALB", "number": 23, "name": "Alexander Albon", "team": "Williams Racing", "country": "Thailand"}
+  ],
+  "constructors": [
+    {"id": "red-bull", "name": "Oracle Red Bull Racing", "country": "Austria"},
+    {"id": "ferrari", "name": "Scuderia Ferrari", "country": "Italy"},
+    {"id": "mercedes", "name": "Mercedes-AMG Petronas", "country": "United Kingdom"},
+    {"id": "mclaren", "name": "McLaren Formula 1 Team", "country": "United Kingdom"},
+    {"id": "aston-martin", "name": "Aston Martin Aramco", "country": "United Kingdom"},
+    {"id": "alpine", "name": "BWT Alpine F1 Team", "country": "France"},
+    {"id": "rb", "name": "Visa Cash App RB", "country": "Italy"},
+    {"id": "sauber", "name": "Stake F1 Team Kick Sauber", "country": "Switzerland"},
+    {"id": "haas", "name": "MoneyGram Haas F1 Team", "country": "United States"},
+    {"id": "williams", "name": "Williams Racing", "country": "United Kingdom"}
+  ],
+  "races": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "circuit": "Bahrain International Circuit",
+      "date": "2025-03-16",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "charles-leclerc", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "sergio-perez", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lando-norris", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "oscar-piastri", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "lewis-hamilton", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabian Grand Prix",
+      "circuit": "Jeddah Corniche Circuit",
+      "date": "2025-03-23",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "sergio-perez", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "charles-leclerc", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "oscar-piastri", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "yuki-tsunoda", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "charles-leclerc", "points": 1}
+    },
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "circuit": "Albert Park Circuit",
+      "date": "2025-03-30",
+      "winner": "charles-leclerc",
+      "results": [
+        {"position": 1, "driverId": "charles-leclerc", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "max-verstappen", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "oscar-piastri", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "nico-hulkenberg", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "oscar-piastri", "points": 1}
+    },
+    {
+      "round": 4,
+      "name": "Japanese Grand Prix",
+      "circuit": "Suzuka International Racing Course",
+      "date": "2025-04-13",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "carlos-sainz", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "sergio-perez", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "oscar-piastri", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "lewis-hamilton", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 5,
+      "name": "Chinese Grand Prix",
+      "circuit": "Shanghai International Circuit",
+      "date": "2025-04-20",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "oscar-piastri", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "sergio-perez", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "carlos-sainz", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "lewis-hamilton", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "daniel-ricciardo", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "oscar-piastri", "points": 1}
+    },
+    {
+      "round": 6,
+      "name": "Miami Grand Prix",
+      "circuit": "Miami International Autodrome",
+      "date": "2025-05-04",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "charles-leclerc", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "lando-norris", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "sergio-perez", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "fernando-alonso", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "carlos-sainz", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "alexander-albon", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 7,
+      "name": "Emilia Romagna Grand Prix",
+      "circuit": "Autodromo Enzo e Dino Ferrari",
+      "date": "2025-05-18",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "carlos-sainz", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "sergio-perez", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "lance-stroll", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lewis-hamilton", "points": 1}
+    },
+    {
+      "round": 8,
+      "name": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "date": "2025-05-25",
+      "winner": "charles-leclerc",
+      "results": [
+        {"position": 1, "driverId": "charles-leclerc", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "carlos-sainz", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lando-norris", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "lewis-hamilton", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "oscar-piastri", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "fernando-alonso", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "sergio-perez", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "george-russell", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 9,
+      "name": "Spanish Grand Prix",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "date": "2025-06-08",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lewis-hamilton", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "oscar-piastri", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "esteban-ocon", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lewis-hamilton", "points": 1}
+    },
+    {
+      "round": 10,
+      "name": "Canadian Grand Prix",
+      "circuit": "Circuit Gilles Villeneuve",
+      "date": "2025-06-15",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lewis-hamilton", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "sergio-perez", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "carlos-sainz", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "daniel-ricciardo", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "date": "2025-06-29",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "oscar-piastri", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "charles-leclerc", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "yuki-tsunoda", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "max-verstappen", "points": 1}
+    },
+    {
+      "round": 12,
+      "name": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "date": "2025-07-06",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lewis-hamilton", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "max-verstappen", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "charles-leclerc", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "george-russell", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "carlos-sainz", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "sergio-perez", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "esteban-ocon", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 13,
+      "name": "Hungarian Grand Prix",
+      "circuit": "Hungaroring",
+      "date": "2025-07-20",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "charles-leclerc", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "lando-norris", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "sergio-perez", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "lewis-hamilton", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "carlos-sainz", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "oscar-piastri", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "charles-leclerc", "points": 1}
+    },
+    {
+      "round": 14,
+      "name": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "date": "2025-07-27",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lewis-hamilton", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "sergio-perez", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "carlos-sainz", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "oscar-piastri", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "lance-stroll", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 15,
+      "name": "Dutch Grand Prix",
+      "circuit": "Circuit Zandvoort",
+      "date": "2025-08-24",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "oscar-piastri", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "sergio-perez", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "lewis-hamilton", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "yuki-tsunoda", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "max-verstappen", "points": 1}
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale Monza",
+      "date": "2025-09-07",
+      "winner": "charles-leclerc",
+      "results": [
+        {"position": 1, "driverId": "charles-leclerc", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "carlos-sainz", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "lando-norris", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 17,
+      "name": "Singapore Grand Prix",
+      "circuit": "Marina Bay Street Circuit",
+      "date": "2025-09-21",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "charles-leclerc", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "max-verstappen", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "oscar-piastri", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "lewis-hamilton", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "carlos-sainz", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "esteban-ocon", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lewis-hamilton", "points": 1}
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "circuit": "Circuit of The Americas",
+      "date": "2025-10-05",
+      "winner": "max-verstappen",
+      "results": [
+        {"position": 1, "driverId": "max-verstappen", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "lando-norris", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "charles-leclerc", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "oscar-piastri", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "lewis-hamilton", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "sergio-perez", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "carlos-sainz", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "nico-hulkenberg", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lando-norris", "points": 1}
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "date": "2025-10-26",
+      "winner": "sergio-perez",
+      "results": [
+        {"position": 1, "driverId": "sergio-perez", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "lando-norris", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "charles-leclerc", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "oscar-piastri", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "lewis-hamilton", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "george-russell", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "carlos-sainz", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "yuki-tsunoda", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "sergio-perez", "points": 1}
+    },
+    {
+      "round": 20,
+      "name": "Sao Paulo Grand Prix",
+      "circuit": "Autódromo José Carlos Pace",
+      "date": "2025-11-02",
+      "winner": "lando-norris",
+      "results": [
+        {"position": 1, "driverId": "lando-norris", "points": 25, "status": "Finished"},
+        {"position": 2, "driverId": "max-verstappen", "points": 18, "status": "Finished"},
+        {"position": 3, "driverId": "lewis-hamilton", "points": 15, "status": "Finished"},
+        {"position": 4, "driverId": "charles-leclerc", "points": 12, "status": "Finished"},
+        {"position": 5, "driverId": "carlos-sainz", "points": 10, "status": "Finished"},
+        {"position": 6, "driverId": "oscar-piastri", "points": 8, "status": "Finished"},
+        {"position": 7, "driverId": "sergio-perez", "points": 6, "status": "Finished"},
+        {"position": 8, "driverId": "george-russell", "points": 4, "status": "Finished"},
+        {"position": 9, "driverId": "fernando-alonso", "points": 2, "status": "Finished"},
+        {"position": 10, "driverId": "pierre-gasly", "points": 1, "status": "Finished"}
+      ],
+      "fastestLap": {"driverId": "lewis-hamilton", "points": 1}
+    }
+  ],
+  "upcomingRaces": [
+    {"round": 21, "name": "Las Vegas Grand Prix", "date": "2025-11-22"},
+    {"round": 22, "name": "Qatar Grand Prix", "date": "2025-12-07"},
+    {"round": 23, "name": "Abu Dhabi Grand Prix", "date": "2025-12-14"}
+  ]
+}
