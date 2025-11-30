@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "node -e \"console.log('No build step required for static assets')\"",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "compression": "^1.7.4",
