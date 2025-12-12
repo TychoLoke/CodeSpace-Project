@@ -13,6 +13,8 @@ const JOBS_PATH = '/partner/external/v3/jobs/batch';
 const PAGE_SIZE = 50;
 
 function normalizeArray<T>(payload: unknown): T[] {
+  if (payload == null) return [] as T[];
+
   const candidate = payload as { items?: T[]; data?: T[] } | T[];
   if (Array.isArray(candidate)) return candidate;
   if (Array.isArray((candidate as { items?: T[] }).items)) return (candidate as { items: T[] }).items;
