@@ -397,17 +397,25 @@ export default function CustomerOverviewPage({ params }: { params: { customerId:
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <KpiCard
             title="Coverage"
-            value={data?.backup.coverageRate !== null ? `${data.backup.coverageRate}%` : 'Not reported'}
+            value={
+              data?.backup?.coverageRate !== null && data?.backup?.coverageRate !== undefined
+                ? `${data.backup.coverageRate}%`
+                : 'Not reported'
+            }
             helper="Protected users vs seats"
           />
           <KpiCard
             title="Protected users"
-            value={data?.backup.protectedUsers !== null ? data.backup.protectedUsers.toLocaleString() : '—'}
+            value={
+              data?.backup?.protectedUsers !== null && data?.backup?.protectedUsers !== undefined
+                ? data.backup.protectedUsers.toLocaleString()
+                : '—'
+            }
             helper="Reported by Cloud Backup"
           />
           <KpiCard
             title="Total seats"
-            value={data?.backup.microsoftSeats.toLocaleString() ?? '—'}
+            value={data?.backup?.microsoftSeats !== undefined ? data.backup.microsoftSeats.toLocaleString() : '—'}
             helper="Microsoft 365"
           />
         </div>
@@ -479,23 +487,36 @@ export default function CustomerOverviewPage({ params }: { params: { customerId:
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-4">
           <KpiCard
             title="Compliance rate"
-            value={data?.workspace.complianceRate !== null ? `${Math.round(data.workspace.complianceRate)}%` : 'Not reported'}
+            value={
+              data?.workspace?.complianceRate !== null && data?.workspace?.complianceRate !== undefined
+                ? `${Math.round(data.workspace.complianceRate)}%`
+                : 'Not reported'
+            }
             helper="Data protection"
           />
           <KpiCard
             title="Ransomware incidents"
-            value={data?.workspace.ransomwareIncidents !== null ? data.workspace.ransomwareIncidents.toLocaleString() : '—'}
+            value={
+              data?.workspace?.ransomwareIncidents !== null && data?.workspace?.ransomwareIncidents !== undefined
+                ? data.workspace.ransomwareIncidents.toLocaleString()
+                : '—'
+            }
             helper="Detection"
           />
           <KpiCard
             title="Protected assets"
-            value={data?.workspace.protectedAssets !== null ? data.workspace.protectedAssets.toLocaleString() : '—'}
+            value={
+              data?.workspace?.protectedAssets !== null && data?.workspace?.protectedAssets !== undefined
+                ? data.workspace.protectedAssets.toLocaleString()
+                : '—'
+            }
             helper="Backup/Ransomware"
           />
           <KpiCard
             title="DSPM exposures"
             value={
-              data?.workspace.dspmInsights.exposedObjects !== null
+              data?.workspace?.dspmInsights?.exposedObjects !== null &&
+              data?.workspace?.dspmInsights?.exposedObjects !== undefined
                 ? data.workspace.dspmInsights.exposedObjects.toLocaleString()
                 : '—'
             }
@@ -503,7 +524,11 @@ export default function CustomerOverviewPage({ params }: { params: { customerId:
           />
         </div>
         <p className="text-xs text-slate-400">
-          Hotspots tracked: {data?.workspace.dspmInsights.hotspots !== null ? data.workspace.dspmInsights.hotspots : '—'}
+          Hotspots tracked: {
+            data?.workspace?.dspmInsights?.hotspots !== null && data?.workspace?.dspmInsights?.hotspots !== undefined
+              ? data.workspace.dspmInsights.hotspots
+              : '—'
+          }
         </p>
       </section>
 
