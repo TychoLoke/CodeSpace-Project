@@ -39,8 +39,8 @@ export function CustomerTable({ rows, errors = [] }: CustomerTableProps) {
       {rows.length === 0 ? (
         <p className="text-sm text-slate-300">No customers are available.</p>
       ) : (
-        <div className="overflow-hidden rounded-2xl border border-white/5 bg-slate-950/50 shadow-2xl ring-1 ring-white/10">
-          <div className="grid grid-cols-12 items-center gap-4 border-b border-white/5 bg-white/5 px-6 py-4 text-xs font-medium text-slate-300">
+        <div className="overflow-hidden rounded-3xl border border-white/10 bg-[#0b1426]/70 shadow-2xl ring-1 ring-white/10">
+          <div className="grid grid-cols-12 items-center gap-4 border-b border-white/10 bg-white/5 px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.08em] text-slate-300 sm:text-xs">
             <span className="col-span-4 sm:col-span-5">Customer name</span>
             <span className="col-span-2">Tenants</span>
             <span className="col-span-2">Backup status</span>

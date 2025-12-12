@@ -59,7 +59,7 @@ export function JobHealthChart({ data }: JobHealthChartProps) {
   return (
     <Card className="h-full bg-gradient-to-b from-[#0d152c] via-[#0b1223] to-[#0a0f1b]">
       <div className="flex flex-col h-full">
-        <header className="flex flex-col gap-3 border-b border-white/5 px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
+        <header className="flex flex-col gap-3 border-b border-white/10 px-6 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-7">
           <div className="space-y-1">
             <p className="text-sm font-semibold uppercase tracking-[0.08em] text-slate-300">Job health summary</p>
             <h3 className="text-xl font-semibold text-white">Latest run distribution</h3>
@@ -72,7 +72,7 @@ export function JobHealthChart({ data }: JobHealthChartProps) {
           </div>
         </header>
 
-        <div className="flex-1 px-4 pb-6 pt-5 sm:px-6">
+        <div className="flex-1 px-4 pb-6 pt-5 sm:px-6 lg:px-7">
           <div className="mb-4 flex flex-wrap items-center gap-3 text-sm text-slate-300">
             {Object.entries(STATUS_COLORS).map(([status, color]) => (
               <span key={status} className="flex items-center gap-2 rounded-full bg-white/5 px-3 py-1">

@@ -16,10 +16,10 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="fixed inset-y-0 z-30 hidden w-72 shrink-0 border-r border-white/5 bg-[#0c1425]/85 backdrop-blur-2xl lg:flex lg:flex-col">
-      <div className="flex items-center gap-3 px-6 pb-6 pt-7">
-        <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#0f1a34] ring-1 ring-white/10">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-r from-[#ff5f6d] via-[#7c3aed] to-[#5b8bff] text-sm font-black text-white shadow-[0_20px_40px_-24px_rgba(91,139,255,0.8)]">
+    <aside className="fixed inset-y-0 z-30 hidden w-72 shrink-0 border-r border-white/10 bg-[#0b1324]/80 pb-6 backdrop-blur-2xl shadow-[0_18px_50px_-40px_rgba(0,0,0,0.85)] lg:flex lg:flex-col">
+      <div className="flex items-center gap-3 px-6 pb-6 pt-8">
+        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0f1a34] ring-1 ring-white/10 shadow-inner shadow-black/40">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-r from-[#ff5f6d] via-[#7c3aed] to-[#5b8bff] text-sm font-black text-white shadow-[0_22px_42px_-24px_rgba(91,139,255,0.85)]">
             AP
           </div>
         </div>
@@ -30,12 +30,12 @@ export function Sidebar() {
       </div>
 
       <div className="px-6">
-        <div className="rounded-2xl border border-white/5 bg-white/5 px-4 py-3 text-xs text-slate-400 shadow-inner shadow-black/30">
+        <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-xs text-slate-300 shadow-inner shadow-black/30">
           Unified backup, job health, and readiness signals for every customer.
         </div>
       </div>
 
-      <nav className="mt-5 flex-1 space-y-1 px-4">
+      <nav className="mt-6 flex-1 space-y-1 px-4">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = item.href !== '#' && pathname.startsWith(item.href);
@@ -44,7 +44,7 @@ export function Sidebar() {
             <Link
               key={item.label}
               href={item.href}
-              className={`group relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+              className={`group relative flex items-center gap-3 rounded-xl px-3.5 py-2.5 text-sm font-medium transition ${
                 isActive ? 'text-white' : 'text-slate-400 hover:text-white hover:bg-white/5'
               }`}
             >
@@ -55,7 +55,7 @@ export function Sidebar() {
                 aria-hidden
               />
               <span
-                className={`flex h-10 w-10 items-center justify-center rounded-lg border border-white/5 bg-[#0f172d] text-white shadow-inner transition ${
+                className={`flex h-11 w-11 items-center justify-center rounded-lg border border-white/5 bg-[#0f172d] text-white shadow-inner transition ${
                   isActive ? 'shadow-[0_20px_40px_-28px_rgba(91,139,255,0.8)] ring-1 ring-white/10' : 'group-hover:border-white/10'
                 }`}
               >
@@ -67,9 +67,9 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="border-t border-white/5 px-6 py-5 text-xs text-slate-500">
-        <p className="font-semibold text-slate-300">Status signals</p>
-        <p>Live insight into coverage, failures, and customer readiness.</p>
+      <div className="border-t border-white/10 px-6 py-5 text-xs text-slate-400">
+        <p className="font-semibold text-slate-200">Status signals</p>
+        <p className="leading-relaxed">Live insight into coverage, failures, and customer readiness.</p>
       </div>
     </aside>
   );

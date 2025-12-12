@@ -60,7 +60,7 @@ export function BackupCoverageChart({ data }: BackupCoverageChartProps) {
   return (
     <Card className="h-full bg-gradient-to-b from-[#0c1428] via-[#0a1120] to-[#0a0f1a]">
       <div className="flex flex-col h-full">
-        <header className="flex flex-col gap-3 border-b border-white/5 px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
+        <header className="flex flex-col gap-3 border-b border-white/10 px-6 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-7">
           <div className="space-y-1">
             <p className="text-sm font-semibold uppercase tracking-[0.08em] text-slate-300">Backup coverage</p>
             <h3 className="text-xl font-semibold text-white">Scanned vs protected</h3>
@@ -73,7 +73,7 @@ export function BackupCoverageChart({ data }: BackupCoverageChartProps) {
           </div>
         </header>
 
-        <div className="flex-1 px-4 pb-6 pt-5 sm:px-6">
+        <div className="flex-1 px-4 pb-6 pt-5 sm:px-6 lg:px-7">
           <div className="mb-4 flex items-center gap-4 text-sm text-slate-300">
             <div className="flex items-center gap-2">
               <span className="h-3 w-3 rounded-full bg-[#7dd3fc] shadow-[0_0_0_4px_rgba(125,211,252,0.15)]" />
